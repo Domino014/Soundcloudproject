@@ -1,0 +1,65 @@
+			body {	
+				padding:10px;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+
+			}
+			
+			#header {
+				background: #ccc;
+				height: 100px;
+				z-index: 10;
+				text-align: center;
+				padding-top: 5px;
+			}
+			
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				padding-left: 20px;
+				float: center;
+				align-content: center; 
+				width: 40%;
+			}
+			
+		
+			
+		/* Select all <img> that are children of class=audio-controls.
+			   Stylizes the Play/Pause/Stop buttons. */
+			.audio-controls > img {
+				width: 40px;
+				height: auto;
+				border-radius: 100px;
+				display: inline-block;
+				margin-left: 50px;
+				border: 3px solid black;
+				cursor: pointer;
+			}
+
+			/* Hover color for Play/Pause/Stop buttons */
+			.audio-controls > img:hover {
+				border-color: gray;
+			}
+
+			div[song] > p:hover {
+				color: blue;
+				cursor: pointer;
+			}
+
+			div[song] > p {
+				font-size: 20px;
+				font-weight: bold;
+				font-style: italic;
+				color: black;
+			}
+
+			#footer {
+				width: 100%;
+				max-height: 40%;
+				background-color:#808080;
+				text-align: center;
+				display: block;
+				position: fixed;
+				bottom: 0;
+			}
+					
